@@ -11,8 +11,8 @@ com/tts/ecomspring/controller/ProductController.java
  com.tts.ecomspring.controller.ProductController
 com/tts/ecomspring/EcomspringApplication.java
  com.tts.ecomspring.EcomspringApplication
-com/tts/ecomspring/controller/AuthenticationController.java
- com.tts.ecomspring.controller.AuthenticationController
+com/tts/ecomspring/securityConfig/SecurityConfiguration.java
+ com.tts.ecomspring.securityConfig.SecurityConfiguration
 com/tts/ecomspring/model/User.java
  com.tts.ecomspring.model.User
  com.tts.ecomspring.model.User$UserBuilder
@@ -27,5 +27,5 @@ com/tts/ecomspring/model/Role.java
  com.tts.ecomspring.model.Role$RoleBuilder
 com/tts/ecomspring/securityConfig/WebMvcConfiguration.java
  com.tts.ecomspring.securityConfig.WebMvcConfiguration
-com/tts/ecomspring/securityConfig/SecurityConfiguration.java
- com.tts.ecomspring.securityConfig.SecurityConfiguration
+com/tts/ecomspring/controller/AuthenticationController.java
+ com.tts.ecomspring.controller.AuthenticationController

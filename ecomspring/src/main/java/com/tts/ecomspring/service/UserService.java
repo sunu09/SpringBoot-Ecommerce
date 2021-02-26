@@ -32,7 +32,6 @@ public class UserService implements UserDetailsService {
     }
 
     public void saveExisting(User user){
-
         userRepository.save(user);
     }
 

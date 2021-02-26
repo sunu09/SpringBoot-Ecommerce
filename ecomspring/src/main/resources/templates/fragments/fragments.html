@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
-<head th:fragment="head">
+<head>
+<!--<head th:fragment="head">-->
+    <div th:fragment="head-styles">
     <title>eCommerce App</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -24,6 +26,7 @@
             justify-content: center;
         }
     </style>
+    </div>
 </head>
 <body>
 <div th:fragment="navbar">
